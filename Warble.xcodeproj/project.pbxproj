@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1EE08D1CC00F9700FACC73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1EE08C1CC00F9700FACC73 /* main.m */; };
+		3F1EE0901CC00F9700FACC73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1EE08F1CC00F9700FACC73 /* AppDelegate.m */; };
+		3F1EE0A71CC0108F00FACC73 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1EE0A31CC0108F00FACC73 /* Fabric.framework */; };
+		3F1EE0A81CC0108F00FACC73 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1EE0A41CC0108F00FACC73 /* TwitterKit.framework */; };
+		3F1EE0A91CC0108F00FACC73 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3F1EE0A51CC0108F00FACC73 /* TwitterKitResources.bundle */; };
+		3F1EE0AA1CC0108F00FACC73 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1EE0A61CC0108F00FACC73 /* TwitterCore.framework */; };
+		3F1EE0AD1CC72D5300FACC73 /* TweetFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1EE0AC1CC72D5300FACC73 /* TweetFetcher.m */; };
+		3F1EE0B11CC7339400FACC73 /* WarbleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1EE0AF1CC7339400FACC73 /* WarbleViewController.m */; };
+		3F1EE0B21CC7339400FACC73 /* WarbleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F1EE0B01CC7339400FACC73 /* WarbleViewController.xib */; };
+		3FA6482F1CC9929100F6D58A /* TweetObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA6482E1CC9929100F6D58A /* TweetObject.m */; };
+		3FA648321CCA958800F6D58A /* AudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA648311CCA958800F6D58A /* AudioEngine.m */; };
+		3FA648471CCB048400F6D58A /* AFINN-111.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3FA648461CCB048400F6D58A /* AFINN-111.txt */; };
+		3FA648491CCC699400F6D58A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA648481CCC699400F6D58A /* AVFoundation.framework */; };
+		3FA6484B1CCC69CB00F6D58A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA6484A1CCC69CA00F6D58A /* Accelerate.framework */; };
+		3FA6484C1CCC6D1500F6D58A /* maj7.aif in Resources */ = {isa = PBXBuildFile; fileRef = 3FA648351CCAF3F600F6D58A /* maj7.aif */; };
+		3FA6484D1CCC6D1500F6D58A /* octave.aif in Resources */ = {isa = PBXBuildFile; fileRef = 3FA648361CCAF3F600F6D58A /* octave.aif */; };
+		3FA6484E1CCC6D1500F6D58A /* min7.aif in Resources */ = {isa = PBXBuildFile; fileRef = 3FA648371CCAF3F600F6D58A /* min7.aif */; };
+		3FA6484F1CCC6D1500F6D58A /* maj6.aif in Resources */ = {isa = PBXBuildFile; fileRef = 3FA648381CCAF3F600F6D58A /* maj6.aif */; };
+		3FA648501CCC6D1500F6D58A /* min3.aif in Resources */ = {isa = PBXBuildFile; fileRef = 3FA648391CCAF3F600F6D58A /* min3.aif */; };
+		3FA648511CCC6D1500F6D58A /* second.aif in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6483A1CCAF3F600F6D58A /* second.aif */; };
+		3FA648521CCC6D1500F6D58A /* fourth.aif in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6483B1CCAF3F600F6D58A /* fourth.aif */; };
+		3FA648531CCC6D1500F6D58A /* min6.aif in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6483C1CCAF3F600F6D58A /* min6.aif */; };
+		3FA648541CCC6D1500F6D58A /* fifth.aif in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6483D1CCAF3F600F6D58A /* fifth.aif */; };
+		3FA648551CCC6D1500F6D58A /* maj3.aif in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6483E1CCAF3F600F6D58A /* maj3.aif */; };
+		3FA648561CCC6D1500F6D58A /* root.aif in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6483F1CCAF3F600F6D58A /* root.aif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F1EE0881CC00F9700FACC73 /* Warble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Warble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1EE08C1CC00F9700FACC73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F1EE08E1CC00F9700FACC73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F1EE08F1CC00F9700FACC73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F1EE09C1CC00F9700FACC73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1EE0A31CC0108F00FACC73 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		3F1EE0A41CC0108F00FACC73 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		3F1EE0A51CC0108F00FACC73 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		3F1EE0A61CC0108F00FACC73 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		3F1EE0AB1CC72D5300FACC73 /* TweetFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TweetFetcher.h; path = ../TweetFetcher.h; sourceTree = "<group>"; };
+		3F1EE0AC1CC72D5300FACC73 /* TweetFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TweetFetcher.m; path = ../TweetFetcher.m; sourceTree = "<group>"; };
+		3F1EE0AE1CC7339400FACC73 /* WarbleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarbleViewController.h; sourceTree = "<group>"; };
+		3F1EE0AF1CC7339400FACC73 /* WarbleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarbleViewController.m; sourceTree = "<group>"; };
+		3F1EE0B01CC7339400FACC73 /* WarbleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WarbleViewController.xib; sourceTree = "<group>"; };
+		3FA6482D1CC9929100F6D58A /* TweetObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetObject.h; sourceTree = "<group>"; };
+		3FA6482E1CC9929100F6D58A /* TweetObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetObject.m; sourceTree = "<group>"; };
+		3FA648301CCA958800F6D58A /* AudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioEngine.h; sourceTree = "<group>"; };
+		3FA648311CCA958800F6D58A /* AudioEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioEngine.m; sourceTree = "<group>"; };
+		3FA648351CCAF3F600F6D58A /* maj7.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = maj7.aif; sourceTree = "<group>"; };
+		3FA648361CCAF3F600F6D58A /* octave.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = octave.aif; sourceTree = "<group>"; };
+		3FA648371CCAF3F600F6D58A /* min7.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = min7.aif; sourceTree = "<group>"; };
+		3FA648381CCAF3F600F6D58A /* maj6.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = maj6.aif; sourceTree = "<group>"; };
+		3FA648391CCAF3F600F6D58A /* min3.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = min3.aif; sourceTree = "<group>"; };
+		3FA6483A1CCAF3F600F6D58A /* second.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = second.aif; sourceTree = "<group>"; };
+		3FA6483B1CCAF3F600F6D58A /* fourth.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = fourth.aif; sourceTree = "<group>"; };
+		3FA6483C1CCAF3F600F6D58A /* min6.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = min6.aif; sourceTree = "<group>"; };
+		3FA6483D1CCAF3F600F6D58A /* fifth.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = fifth.aif; sourceTree = "<group>"; };
+		3FA6483E1CCAF3F600F6D58A /* maj3.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = maj3.aif; sourceTree = "<group>"; };
+		3FA6483F1CCAF3F600F6D58A /* root.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = root.aif; sourceTree = "<group>"; };
+		3FA648461CCB048400F6D58A /* AFINN-111.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AFINN-111.txt"; sourceTree = "<group>"; };
+		3FA648481CCC699400F6D58A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3FA6484A1CCC69CA00F6D58A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F1EE0851CC00F9700FACC73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA6484B1CCC69CB00F6D58A /* Accelerate.framework in Frameworks */,
+				3FA648491CCC699400F6D58A /* AVFoundation.framework in Frameworks */,
+				3F1EE0A71CC0108F00FACC73 /* Fabric.framework in Frameworks */,
+				3F1EE0AA1CC0108F00FACC73 /* TwitterCore.framework in Frameworks */,
+				3F1EE0A81CC0108F00FACC73 /* TwitterKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F1EE07F1CC00F9700FACC73 = {
+			isa = PBXGroup;
+			children = (
+				3FA6484A1CCC69CA00F6D58A /* Accelerate.framework */,
+				3FA648481CCC699400F6D58A /* AVFoundation.framework */,
+				3F1EE08A1CC00F9700FACC73 /* Warble */,
+				3F1EE0891CC00F9700FACC73 /* Products */,
+				3F1EE0A31CC0108F00FACC73 /* Fabric.framework */,
+				3F1EE0A41CC0108F00FACC73 /* TwitterKit.framework */,
+				3F1EE0A51CC0108F00FACC73 /* TwitterKitResources.bundle */,
+				3F1EE0A61CC0108F00FACC73 /* TwitterCore.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		3F1EE0891CC00F9700FACC73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F1EE0881CC00F9700FACC73 /* Warble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F1EE08A1CC00F9700FACC73 /* Warble */ = {
+			isa = PBXGroup;
+			children = (
+				3FA648301CCA958800F6D58A /* AudioEngine.h */,
+				3FA648311CCA958800F6D58A /* AudioEngine.m */,
+				3FA6482D1CC9929100F6D58A /* TweetObject.h */,
+				3FA6482E1CC9929100F6D58A /* TweetObject.m */,
+				3F1EE0AB1CC72D5300FACC73 /* TweetFetcher.h */,
+				3F1EE0AC1CC72D5300FACC73 /* TweetFetcher.m */,
+				3F1EE08E1CC00F9700FACC73 /* AppDelegate.h */,
+				3F1EE08F1CC00F9700FACC73 /* AppDelegate.m */,
+				3F1EE09C1CC00F9700FACC73 /* Info.plist */,
+				3F1EE08B1CC00F9700FACC73 /* Supporting Files */,
+				3F1EE0AE1CC7339400FACC73 /* WarbleViewController.h */,
+				3F1EE0AF1CC7339400FACC73 /* WarbleViewController.m */,
+				3F1EE0B01CC7339400FACC73 /* WarbleViewController.xib */,
+			);
+			path = Warble;
+			sourceTree = "<group>";
+		};
+		3F1EE08B1CC00F9700FACC73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FA648461CCB048400F6D58A /* AFINN-111.txt */,
+				3FA648351CCAF3F600F6D58A /* maj7.aif */,
+				3FA648361CCAF3F600F6D58A /* octave.aif */,
+				3FA648371CCAF3F600F6D58A /* min7.aif */,
+				3FA648381CCAF3F600F6D58A /* maj6.aif */,
+				3FA648391CCAF3F600F6D58A /* min3.aif */,
+				3FA6483A1CCAF3F600F6D58A /* second.aif */,
+				3FA6483B1CCAF3F600F6D58A /* fourth.aif */,
+				3FA6483C1CCAF3F600F6D58A /* min6.aif */,
+				3FA6483D1CCAF3F600F6D58A /* fifth.aif */,
+				3FA6483E1CCAF3F600F6D58A /* maj3.aif */,
+				3FA6483F1CCAF3F600F6D58A /* root.aif */,
+				3F1EE08C1CC00F9700FACC73 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F1EE0871CC00F9700FACC73 /* Warble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1EE09F1CC00F9700FACC73 /* Build configuration list for PBXNativeTarget "Warble" */;
+			buildPhases = (
+				3F1EE0841CC00F9700FACC73 /* Sources */,
+				3F1EE0851CC00F9700FACC73 /* Frameworks */,
+				3F1EE0861CC00F9700FACC73 /* Resources */,
+				3F1EE0A21CC0106300FACC73 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Warble;
+			productName = Warble;
+			productReference = 3F1EE0881CC00F9700FACC73 /* Warble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F1EE0801CC00F9700FACC73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Roshan Krishnan";
+				TargetAttributes = {
+					3F1EE0871CC00F9700FACC73 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 3F1EE0831CC00F9700FACC73 /* Build configuration list for PBXProject "Warble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F1EE07F1CC00F9700FACC73;
+			productRefGroup = 3F1EE0891CC00F9700FACC73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F1EE0871CC00F9700FACC73 /* Warble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F1EE0861CC00F9700FACC73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA6484C1CCC6D1500F6D58A /* maj7.aif in Resources */,
+				3FA6484D1CCC6D1500F6D58A /* octave.aif in Resources */,
+				3FA6484E1CCC6D1500F6D58A /* min7.aif in Resources */,
+				3FA6484F1CCC6D1500F6D58A /* maj6.aif in Resources */,
+				3FA648501CCC6D1500F6D58A /* min3.aif in Resources */,
+				3FA648511CCC6D1500F6D58A /* second.aif in Resources */,
+				3FA648521CCC6D1500F6D58A /* fourth.aif in Resources */,
+				3FA648531CCC6D1500F6D58A /* min6.aif in Resources */,
+				3FA648541CCC6D1500F6D58A /* fifth.aif in Resources */,
+				3FA648551CCC6D1500F6D58A /* maj3.aif in Resources */,
+				3FA648561CCC6D1500F6D58A /* root.aif in Resources */,
+				3FA648471CCB048400F6D58A /* AFINN-111.txt in Resources */,
+				3F1EE0A91CC0108F00FACC73 /* TwitterKitResources.bundle in Resources */,
+				3F1EE0B21CC7339400FACC73 /* WarbleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F1EE0A21CC0106300FACC73 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 4d301c95ce5b5c78b4e9bf9c214078f99a65e85b c3460863d0044bcf92c58d9a383774e8d624d28fdc2a74a769b09821e7666d96";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F1EE0841CC00F9700FACC73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA648321CCA958800F6D58A /* AudioEngine.m in Sources */,
+				3F1EE0901CC00F9700FACC73 /* AppDelegate.m in Sources */,
+				3F1EE0B11CC7339400FACC73 /* WarbleViewController.m in Sources */,
+				3FA6482F1CC9929100F6D58A /* TweetObject.m in Sources */,
+				3F1EE08D1CC00F9700FACC73 /* main.m in Sources */,
+				3F1EE0AD1CC72D5300FACC73 /* TweetFetcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F1EE09D1CC00F9700FACC73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F1EE09E1CC00F9700FACC73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F1EE0A01CC00F9700FACC73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Warble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoshanKrishnan.Warble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F1EE0A11CC00F9700FACC73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Warble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoshanKrishnan.Warble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F1EE0831CC00F9700FACC73 /* Build configuration list for PBXProject "Warble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1EE09D1CC00F9700FACC73 /* Debug */,
+				3F1EE09E1CC00F9700FACC73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1EE09F1CC00F9700FACC73 /* Build configuration list for PBXNativeTarget "Warble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1EE0A01CC00F9700FACC73 /* Debug */,
+				3F1EE0A11CC00F9700FACC73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F1EE0801CC00F9700FACC73 /* Project object */;
+}

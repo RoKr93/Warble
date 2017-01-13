@@ -1,0 +1,3 @@
+# Warble
+
+Warble is an extremely silly little app that, given a Twitter handle, classifies that user's last 200 tweets by sentiment, assigns each Tweet a note from a major or minor scale accordingly, and plays back the result over a 2-minute time span proportional to the time elapsed between the Tweets themselves. The result is usually spectacularly chaotic and doesn't make a ton of sense, much like Twitter itself. But Tweetstorms occasionally make sick jazz chords. Who knew?
